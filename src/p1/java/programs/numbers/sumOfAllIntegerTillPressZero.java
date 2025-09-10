@@ -8,7 +8,7 @@ public class sumOfAllIntegerTillPressZero {
         Scanner sc = new Scanner(System.in);
         int result = 0;
         while (true){
-            System.out.print("Enter the number (enter 0 to stop): ");
+            System.out.print("Enter the number's (enter 0 to stop): ");
             int num = sc.nextInt();
 
             result = result+num;
