@@ -1,6 +1,7 @@
 package p1.java.topics.Arrays;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class ArrayLst {
     public static void main(String[] args) {
@@ -14,7 +15,7 @@ public class ArrayLst {
         and it can be created using objects and wrapper classes.
 
     SYNTAX:
-           ArrayList<Integer> list = new ArrayList<Integer>
+           ArrayList<Integer> list = new ArrayList<>();
     */
 
 
@@ -75,6 +76,10 @@ public class ArrayLst {
         }
 
 
+        System.out.print("\nWithout loops : ");
+        System.out.println(list);
+
+
 
         /*
           Other Types:
@@ -83,6 +88,17 @@ public class ArrayLst {
                      To use other types, such as int, you must specify an equivalent wrapper class:
                      Integer. For other primitive types, use: Boolean for boolean, Character for char, Double for double, etc:
         */
+
+
+
+        //Input array list:
+        Scanner sc = new Scanner(System.in);
+        System.out.println("\nEnter the elements: ");
+        for (int i = 0; i < list.size(); i++) {
+            list.add(sc.nextInt());
+        }
+
+        System.out.print("Printing Input elements : "+list);
 
 
     }

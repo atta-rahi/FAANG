@@ -1,6 +1,4 @@
-package p1.java.programs.array;
-
-import p1.java.topics.Arrays.Array;
+package p1.java.programs.array.Easy;
 
 import java.util.Arrays;
 import java.util.Scanner;
