@@ -1,6 +1,5 @@
-package p1.java.programs.area;
+package p1.java.programs.array.Easy;
 
-import java.util.Scanner;
 public class MinCostToMoveChipsToSamePosition {
     public static void main(String[] args) {
         /*
